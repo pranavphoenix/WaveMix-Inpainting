@@ -49,15 +49,14 @@ url={https://openreview.net/forum?id=OJILbuOodvm}
 }
 
 
-@misc{
-p2022wavemix,
-title={WaveMix: Multi-Resolution Token Mixing for Images},
-author={Pranav Jeevan P and Amit Sethi},
-year={2022},
-url={https://openreview.net/forum?id=tBoSm4hUWV}
+@misc{jeevan2023wavemix,
+      title={WaveMix: A Resource-efficient Neural Network for Image Analysis}, 
+      author={Pranav Jeevan and Kavitha Viswanathan and Anandu A S and Amit Sethi},
+      year={2023},
+      eprint={2205.14375},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 
-
-<!-- YET TO CITE LAMA -->
 
 ``` 
