@@ -1,6 +1,23 @@
 # WaveMix-Inpainting
  
   
+### Create Datasets
+
+For creating validation/test datasets, the masks have to be pre-generated. 
+The following code will look into a folder having all test images and create a new folder with all images and their generated masks.
+```
+git clone https://github.com/advimman/lama.git
+cd lama
+# Make sure you are in lama folder
+export TORCH_HOME=$(pwd) && export PYTHONPATH=$(pwd)
+python3 bin/gen_mask_dataset.py \
+$(pwd)/configs/data_gen/random_medium_224.yaml Path/to/folder/containing/Images \
+Path/to/new/folder/ --ext JPEG  
+
+#change ext based on image formats
+#edit the yaml file in configs/data_gen to generate masks according to need
+```
+
 
 
 
